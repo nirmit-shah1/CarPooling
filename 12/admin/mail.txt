@@ -1,0 +1,24 @@
+System.Web.Mail.MailMessage mail = new System.Web.Mail.MailMessage();
+            string msg = "<h2 align='center'>CommunityPortal Team</h2>";
+            string uname = ds.Tables[0].Rows[0]["First_name"].ToString() + " " + ds.Tables[0].Rows[0]["Last_name"].ToString();
+            msg += "<br>Dear " + uname + ",<br><br>";
+            msg += "<br><br> Your Password is:" + " " + ds.Tables[0].Rows[0]["Password"].ToString();
+            //msg += "<a href=\"http://www.example.com/recoverpwd.aspx\"></a>";
+            msg += "<br><br><br> Regards,<br>Administrator<br>CommunityPortal Team";
+            mail.To = ds.Tables[0].Rows[0]["Email"].ToString();
+            mail.From = "community@gmail.com";
+            mail.Subject = "Password recovery msg";
+            mail.BodyFormat = System.Web.Mail.MailFormat.Html;
+            mail.Body = msg;
+
+            mail.Fields["http://schemas.microsoft.com/cdo/configuration/smtpserverport"] = 465;
+            mail.Fields["http://schemas.microsoft.com/cdo/configuration/sendusing"] = 2;
+            mail.Fields["http://schemas.microsoft.com/cdo/configuration/smtpauthenticate"] = 1;
+            mail.Fields["http://schemas.microsoft.com/cdo/configuration/sendusername"] = "comunity@gmail.com"; //real gmail a/c address
+            mail.Fields["http://schemas.microsoft.com/cdo/configuration/sendpassword"] = "xyz"; real password
+            mail.Fields["http://schemas.microsoft.com/cdo/configuration/smtpusessl"] = "true";
+            System.Web.Mail.SmtpMail.SmtpServer = "smtp.gmail.com";
+
+            System.Web.Mail.SmtpMail.Send(mail);
+
+            Page.RegisterStartupScript("UserMsg", "<script>alert('Mail sent thank you...');if(alert){ window.location='Forgotpwd.aspx';}</script>");

@@ -1,0 +1,65 @@
+/* CSS Document */
+.header{
+	background:#323A45;
+	border-bottom:2px solid #00B895;
+}
+
+.wrap{
+	width:80%;
+	margin:0 auto;
+	transition:all .2s linear;
+	-moz-transition:all .2s linear;/* firefox */
+	-webkit-transition:all .2s linear; /* safari and chrome */
+	-o-transition:all .2s linear; /* opera */
+	-ms-transition:all .2s linear;
+}
+.logo{
+	float: left;
+	padding:25px 0;
+}
+
+.top-nav{
+	float:right;
+}
+.top-nav ul li{
+	display:inline-block;
+	float:left;
+}
+.top-nav ul li a{
+	font-family: 'Roboto', sans-serif;
+	color: #d6d6d6;
+	padding: 40px 25px;
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	font-size: 0.875em;
+	position:relative;
+}
+.top-nav li.active a, .top-nav li a:hover {
+	color:#FFF;
+	background:#00B895;
+}
+.content_top span a:hover{
+	background:#222;
+}
+.button:hover{
+	background-color: #222;
+}
+.special-grid a:hover{
+	color: #009175;
+}
+.footer-grid ul li a:hover{
+	color:#005F4D;
+}
+.email-link:hover{
+	color:#FFF;
+}
+
+.mybutton:hover{
+	background: #00B895;
+	color: #FFF;
+}
+.clear{clear:both;}

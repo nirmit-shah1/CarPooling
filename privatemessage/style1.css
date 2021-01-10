@@ -1,0 +1,50 @@
+.trip
+{
+background-color:#EEEEEE;
+border: solid 1px #999999;
+width:600px;
+padding-bottom:10px;
+padding-left:20px;
+padding-right:10px;
+padding-top:10px;
+}
+/*input[type="text {*/
+.text{
+  padding: 5px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+}
+input[type="text"]:focus,input[type="text"].focus {
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+body 
+{
+    font-family: sans-serif;
+	font-size: 14px;
+}
+.icon1
+{
+background-image:url(rupee.png);
+background-repeat:no-repeat;
+height:30px;
+padding-left:35px;
+color:gray;
+border:1px solid gray;
+width:200px;					
+}
+.center
+{
+text-align:right;
+}
+
+/*input
+{
+-moz-border-radius: 15px;
+ border-radius: 5px;
+    border:solid 1px black;
+    padding:5px;
+}*/
+.form-textbox{
+height:25px !important;
+width:220px	!important;}

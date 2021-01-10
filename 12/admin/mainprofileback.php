@@ -1,0 +1,38 @@
+<?php
+session_start();
+if(isset($_SESSION['emailcommanusername']))
+{
+	include_once("connection.php");
+	?>
+	<html>
+	<title>Profile</title>
+	</html>
+	<?php
+	$t=$_POST['txtarea'];
+	$reg_id=$_SESSION['reg_id'];
+	if($t == NULL)
+	{
+		$_SESSION['basicfail']=1;
+		$_SESSION['bio']=1;
+		header("location:mainprofile.php");
+	}
+	else
+	{
+		$sql="update  signup_details set bio ='$t' where reg_id=$reg_id";
+		$result=mysql_query($sql);  
+		if($result)
+		{
+			$_SESSION['basicsuccess']=1;
+			header("location:mainprofile.php");
+		}
+		else
+		{
+			$_SESSION['basicfail']=1;
+		}
+	}
+	?>
+<?php
+}
+else
+	header("location:../index.php");
+?>

@@ -1,0 +1,1 @@
+ string str = "http://mobi1.blogdns.com/apisms/SMSSenders.aspx?UserID=KSMSCIT&UserPass=123456&Message=" + txtmsg.Text + "&MobileNo=" + txtphno.Text + "&GSMID=" + txttitle.Text;

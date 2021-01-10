@@ -1,0 +1,119 @@
+.trip
+{
+background-color:#DDDDDD;
+border: solid 1px #999999;
+width:600px;
+padding-bottom:10px;
+padding-left:20px;
+padding-right:10px;
+padding-top:20px;
+}
+.map
+{
+height:400px;
+width:500px;
+position:absolute;right:1px;top:17px;
+}	
+/*input[type="text {*/
+.text{
+  padding: 5px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+}
+input[type="text"]:focus,input[type="text"].focus {
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+body 
+{
+    font-family: sans-serif;
+	font-size: 14px;
+}
+.icon1
+{
+background-image:url(rupee.png);
+background-repeat:no-repeat;
+height:30px;
+padding-left:35px;
+color:gray;
+border:1px solid gray;
+width:200px;					
+}
+.center
+{
+text-align:right;
+}
+
+/*input
+{
+-moz-border-radius: 15px;
+ border-radius: 5px;
+    border:solid 1px black;
+    padding:5px;
+}*/
+/* CSS Document */
+.header{
+	background:#323A45;
+	border-bottom:2px solid #00B895;
+}
+
+.wrap{
+	width:78%;
+	margin:0 auto;
+	transition:all .2s linear;
+	-moz-transition:all .2s linear;/* firefox */
+	-webkit-transition:all .2s linear; /* safari and chrome */
+	-o-transition:all .2s linear; /* opera */
+	-ms-transition:all .2s linear;
+}
+.logo{
+	float: left;
+	padding:15px 0;
+	 margin-left: -133px;
+}
+
+.top-nav{
+	float:right;
+}
+.top-nav ul li{
+	display:inline-block;
+	float:left;
+}
+.top-nav ul li a{
+	font-family: 'Roboto', sans-serif;
+	color: #d6d6d6;
+	padding: 40px 25px;
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	font-size: 0.875em;
+	position:relative;
+}
+.top-nav li.active a, .top-nav li a:hover {
+	color:#FFF;
+	background:#00B895;
+}
+.content_top span a:hover{
+	background:#222;
+}
+.button:hover{
+	background-color: #222;
+}
+.special-grid a:hover{
+	color: #009175;
+}
+.footer-grid ul li a:hover{
+	color:#005F4D;
+}
+.email-link:hover{
+	color:#FFF;
+}
+
+.mybutton:hover{
+	background: #00B895;
+	color: #FFF;
+}
+.clear{clear:both;}

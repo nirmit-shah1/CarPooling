@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<configuration date="2016/01/22" author="e.World Technology Ltd.">
+<project id="{9ACD0C53-10B4-423E-B4D2-BB7755A0F8CA}" file="" name="project1" product="PHPMaker" version="12.0" datetime="2016/01/22 01:02:03" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;">
+<table id="area" name="area" caption="area" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="city" name="city" caption="city" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="company" name="company" caption="company" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="companymodel" name="companymodel" caption="companymodel" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="counter" name="counter" caption="counter" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="images" name="images" caption="images" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="_login" name="login" caption="login" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="logincount" name="logincount" caption="logincount" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="member" name="member" caption="member" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="member_signup" name="member_signup" caption="member signup" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="membertravellingdetails" name="membertravellingdetails" caption="membertravellingdetails" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="model" name="model" caption="model" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="postal" name="postal" caption="postal" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="privatemessage" name="privatemessage" caption="privatemessage" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="routedetails" name="routedetails" caption="routedetails" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="signup_details" name="signup_details" caption="signup details" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="signuplogin" name="signuplogin" caption="signuplogin" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="staecityarera" name="staecityarera" caption="staecityarera" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="state" name="state" caption="state" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="typeoftrip" name="typeoftrip" caption="typeoftrip" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="view1" name="view1" caption="view 1" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+<table id="view2" name="view2" caption="view 2" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1"/>
+</project></configuration>

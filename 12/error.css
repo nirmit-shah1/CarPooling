@@ -1,0 +1,12 @@
+/* CSS Document */
+error{
+border-bottom-color:#660000;
+color:#00FF33;
+background-color:#FFFF33;
+text-decoration:blink;
+}
+message{
+background:#CC3366;
+text-decoration:blink;
+}
+
