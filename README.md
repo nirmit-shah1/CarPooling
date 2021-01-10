@@ -4,4 +4,6 @@ Online car-pooling is the project which unites the pullers who have space on the
 Thus, Online car-pooling helps to reduce to traffic burden as well as contributes to minimizing the air pollution. This can be revolutionary  system if it can be implemented with the help of government. 
 
 # Detailed Problem Definition
-        	The site which aims at connecting two or more commuters as well as for the people who are travelling to the same destination every day. Also  with  an  objective  of  preserving  and  protecting our  environment  and  economising the  money .This site will also help the people who want to travel for the particular day
+ The site which aims at connecting two or more commuters as well as for the people who are 
+ travelling to the same destination every day. Also  with  an  objective  of  preserving  and  protecting our  
+ environment  and  economising the  money .This site will also help the people who want to travel for the particular day
